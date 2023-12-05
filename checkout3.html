@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title> Trio Web Droids </title>
+	<link rel="icon" href="favicon.ico" type="image/icon type">
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="bootstrap.min.css" />
+
+	<!-- Slick -->
+	<link type="text/css" rel="stylesheet" href="slick.css" />
+	<link type="text/css" rel="stylesheet" href="slick-theme.css" />
+
+	<!-- nouislider -->
+	<link type="text/css" rel="stylesheet" href="nouislider.min.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+	<!-- HEADER -->
+	<header>
+		<!-- TOP HEADER -->
+		<div id="top-header">
+			<div class="container">
+				<ul class="header-links pull-left">
+					<li><a href="index.html"></li>
+				</ul>
+				<ul class="header-links pull-right">
+					<li><a href="about.html"><i class="fa fa-info-circle"></i> About Us </a></li>
+					<li><a href="log.html"><i class="fa fa-sign-out">Log Out</i></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- /TOP HEADER -->
+
+		<!-- MAIN HEADER -->
+		<div id="header">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<!-- LOGO -->
+					<div class="col-md-3">
+						<div class="header-logo">
+							<nav>
+								<a href="index.html" class="logo"> <img src="co.jpg" width="100px" height="50px"
+										id=logo alt="Logo Image" style="margin-left: 90px;" /><strong>LuminousSparkCo
+									</strong>
+								</a>
+							</nav>
+						</div>
+					</div>
+					<!-- /LOGO -->
+
+
+					<!-- ACCOUNT -->
+					<div class="col-sml-3 clearfix">
+						<div class="header-ctn">
+							<!-- Wishlist -->
+							<div>
+								<a href="cartlist.html">
+									<i class="fa fa-shopping-cart"></i>
+									<span><strong> My Cart</strong></span>
+									<div class="qty">0</div>
+								</a>
+							</div>
+							<div>
+								<a href="wish.html">
+									<i class="fa fa-heart"></i>
+									<span><strong> My Wishlist</strong></span>
+									<div class="qty">0</div>
+								</a>
+							</div>
+							<!-- /Wishlist -->
+
+
+							<!-- Menu Toogle -->
+							<div class="menu-toggle">
+								<a href="index.html">
+									<i class="fa fa-bars"></i>
+									<span>Menu</span>
+								</a>
+							</div>
+							<!-- /Menu Toogle -->
+						</div>
+					</div>
+					<!-- /ACCOUNT -->
+				</div>
+				<!-- row -->
+			</div>
+			<!-- container -->
+		</div>
+		<!-- /MAIN HEADER -->
+	</header>
+	<!-- /HEADER -->
+
+	<!-- NAVIGATION -->
+	<nav id="navigation">
+		<!-- container -->
+		<div class="container">
+			<!-- responsive-nav -->
+			<div id="responsive-nav">
+
+				<!-- NAV -->
+				<ul class="main-nav nav navbar-nav">
+					<li><a href="index.html"><i class="fa fa-home"></i> Home </a></li>
+					<li class="active"><a href="#"><i class="fa fa-shopping-cart"></i> Purchase </a></li>
+					<li><a href="rate.html"><i class="fa fa-comments"></i> Rate & Reviews </a></li>
+				</ul>
+				<!-- /NAV -->
+			</div>
+			<!-- /responsive-nav -->
+		</div>
+		<!-- /container -->
+	</nav>
+	<!-- /NAVIGATION -->
+
+	<!-- SECTION -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+
+				<div class="col-md-7">
+
+					<!-- Billing Details -->
+					<div class="billing-details">
+						<div class="section-title">
+							<h3 class="title">Billing Details</h3>
+						</div>
+						<div class="form-group">
+							<input class="input" type="text" name="first-name" placeholder="Full Name">
+						</div>
+						
+						<div class="form-group">
+							<input class="input" type="email" name="email" placeholder="Email Address">
+						</div>
+						<div class="form-group">
+							<input class="input" type="text" name="address" placeholder="Home Address">
+						</div>
+						
+						<div class="form-group">
+							<input class="input" type="tel" name="tel" placeholder="Contact Number">
+						</div>
+						<div class="form-group">
+							<div class="input-checkbox">
+								<input type="checkbox" id="create-account">
+								<label for="create-account">
+									<span></span>
+									Create Account?
+								</label>
+								<div class="caption">
+									<p>Create an account here.</p>
+									<input class="input" type="password" name="password"
+										placeholder="Enter Your Password">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /Billing Details -->
+
+					<!-- Shiping Details -->
+					<div class="shiping-details">
+						<div class="section-title">
+							<h3 class="title">Shipping Address</h3>
+						</div>
+						<div class="input-checkbox">
+							<input type="checkbox" id="shiping-address">
+							<label for="shiping-address">
+								<span></span>
+								Ship to a different address?
+							</label>
+							<div class="caption">
+								<div class="form-group">
+									<input class="input" type="text" name="first-name" placeholder="Full Name">
+								</div>
+								
+								<div class="form-group">
+									<input class="input" type="email" name="email" placeholder="Email Address">
+								</div>
+								<div class="form-group">
+									<input class="input" type="text" name="address" placeholder="Home Address">
+								</div>
+								
+								<div class="form-group">
+									<input class="input" type="tel" name="tel" placeholder="Contact Number">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /Shiping Details -->
+
+					<!-- Order notes -->
+					<div class="order-notes">
+						<textarea class="input" placeholder="Order Notes"></textarea>
+					</div>
+					<!-- /Order notes -->
+				</div>
+
+				<!-- Order Details -->
+				<div class="col-md-5 order-details">
+					<div class="section-title text-center">
+						<h3 class="title">Your Order</h3>
+					</div>
+						<div class="section-title text-center">
+						<img src="pink7.jpg" alt="" height="250">
+					</div>
+						<div class="order-summary">
+							<div class="order-col">
+								<div><strong>PRODUCT</strong></div>
+								<div><strong>TOTAL</strong></div>
+							</div>
+							<div class="order-products">
+								<div class="order-col">
+									<div>Comb Bridal Headpiece with Ivory Pearls </div>
+									<div> ₱3,276.74</div>
+								</div>
+							</div>
+							<div class="order-col">
+								<div>Shipping</div>
+								<div><strong>+ ₱60</strong></div>
+							</div>
+							<div class="order-col">
+								<div><strong>TOTAL</strong></div>
+								<div><strong class="order-total"> ₱3,276.74</a></strong></div>
+							</div>
+						</div>
+						<div class="payment-method">
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-1">
+								<label for="payment-1">
+									<span></span>
+									GCash e-Wallet
+								</label>
+								<div class="caption">
+								</div>
+							</div>
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-2">
+								<label for="payment-2">
+									<span></span>
+									Cash On Delivery
+								</label>
+								<div class="caption">
+								</div>
+							</div>
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-3">
+								<label for="payment-3">
+									<span></span>
+									Credit/Debit card
+								</label>
+								<div class="caption">
+								</div>
+							</div>
+						</div>
+						<div class="input-checkbox">
+							<input type="checkbox" id="terms">
+							<label for="terms">
+								<span></span>
+								I've read and accept the terms & conditions</a>
+							</label>
+						</div>
+						<a href="thanks.html" class="primary-btn order-submit">Place Order <i class="fa fa-cart-arrow-down"></i> </a>
+					</div>
+					<!-- /Order Details -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /SECTION -->
+
+		<!-- jQuery Plugins -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/jquery.zoom.min.js"></script>
+		<script src="main.js"></script>
+
+		<!-- FOOTER SECTION -->
+	<hr>
+	<div class="icons">
+		<a href="https://www.facebook.com"><i class="fa fa-facebook-square"></i></a>
+		<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.youtube.com"><i class="fa fa-youtube-play"></i></a>
+	</div>
+	<div class="credit"> &copy; Copyright @ 2023 by <span><a href="index.html">LuminousSparkCo</a></span> | All Rights
+		Reserved!</div>
+	<!-- END OF FOOTER SECTION -->
+
+</body>
+
+</html>
